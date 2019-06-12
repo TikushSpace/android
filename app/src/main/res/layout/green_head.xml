@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/back_btn"
+                     android:layout_gravity="left|top"
+                     android:layout_marginLeft="32dp"
+                     android:layout_marginTop="32dp"/>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:orientation="vertical">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Match Preview"
+                      android:textSize="17dp"
+                      android:layout_gravity="center_horizontal"
+                      android:layout_marginTop="30dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Game week 3"
+                      android:textSize="14dp"
+                      android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:background="@drawable/note"
+                     android:layout_gravity="right|top"
+                     android:layout_marginRight="32dp"
+                     android:layout_marginTop="32dp"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:srcCompat="@drawable/red_point"/>
+    </FrameLayout>
+</LinearLayout>
